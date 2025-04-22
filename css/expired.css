@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+/* Dark theme for expired.ru */
+:root {
+  --background-primary: #121212;
+  --background-secondary: #1e1e1e;
+  --background-tertiary: #2d2d2d;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --border-color: #3d3d3d;
+  --accent-color: #ff9800;
+  --error-color: #ff5252;
+  --success-color: #4caf50;
+}
+
+body, html {
+  background-color: var(--background-primary) !important;
+  color: var(--text-primary) !important;
+}
+#content{
+  background-color: var(--background-primary) !important;
+  text-shadow: unset;
+}
+#content > .container > div:first-child{
+  display: none;
+}
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary) !important;
+  font-family: "Golos Text", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+  font-weight: 400!important;
+}
+#domains h5{
+  color: #2196F3 !important;
+}
+hr{
+  border-color: var(--border-color) !important;
+}
+/* Links */
+a, a:visited {
+  color: var(--text-primary) !important;
+
+}
+
+a:hover {
+  color: #ffb74d !important;
+}
+
+/* Inputs and Buttons */
+input, select, textarea, button {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: var(--background-tertiary) !important;
+}
+.btn,.btn-success{
+  background-color: var(--background-tertiary) !important;
+  background-image: var(--background-tertiary) !important;
+}
+.filters{
+  border-color: var(--border-color) !important;
+  background-color: var(--background-secondary) !important;
+}
+#tabs .subtab.active, #tabs #dashboard-tab .active .subtab {
+  background-color: var(--background-primary) !important;
+}
+#tabs #dashboard-tab .active .subtab {
+  background-color: var(--background-tertiary) !important;
+}
+
+#tabs .subtab,ul.nav-tabs li,#topBarWrapper{
+  background-color: var(--background-tertiary) !important;
+}
+/* Popover */
+  .popover{
+    background-color: var(--background-primary) !important;
+  }
+  .popover-title {
+    background-color: var(--background-primary) !important;
+}
+/* Tables */
+table, th, td {
+  border-color: var(--border-color) !important;
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+
+.table-striped tbody > tr:nth-child(2n+1) > td, .table-striped tbody > tr:nth-child(2n+1) > th{
+  background-color: var(--background-primary) !important;
+}
+/* Header and Footer */
+header, footer, nav {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Specific elements */
+.b-wizard{
+  display: none!important;
+}
+.header, .footer, .navbar, .nav, .menu, #left {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Cards and panels */
+.card, .panel, .box, .container, .content {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Status colors */
+.success, .positive, .green {
+  color: var(--success-color) !important;
+}
+
+.error, .danger, .negative, .red {
+  color: var(--error-color) !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
