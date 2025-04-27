@@ -2,7 +2,9 @@
 
 A browser extension that applies custom dark themes to backorder.ru and expired.ru websites. Compatible with both Firefox and Chrome using Manifest V3.
 
-![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)(https://chromewebstore.google.com/detail/dark-theme-switcher/amppglpdcmcgidapdommjgepdflmfkld) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)(https://addons.mozilla.org/en-US/firefox/addon/dark-theme-switcher/)
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png">](https://chromewebstore.google.com/detail/dark-theme-switcher)
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png">](https://addons.mozilla.org/en-US/firefox/addon/dark-theme-switcher/)
 
 ## Donate / Поддержи проект
 
